@@ -28,6 +28,6 @@ module.exports = {
 
 5. add .env file, then import those names like this
 ```
-import { SOMETHING } from 'react-native-dotenv'
+import { SOMETHING } from '@env'
 ```
 
