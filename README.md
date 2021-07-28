@@ -18,3 +18,16 @@ react-native run-android
 npm start -- --reset-cache
 ```
 
+4. add this in babel.config.js
+```
+module.exports = {
+  presets: ['module:metro-react-native-babel-preset'],
+  plugins: ['module:react-native-dotenv'],
+};
+```
+
+5. add .env file, then import those names like this
+```
+import { SOMETHING } from 'react-native-dotenv'
+```
+
