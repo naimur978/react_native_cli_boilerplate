@@ -10,6 +10,8 @@ import {
 } from '@constants';
 import styles from './styles';
 
+import {BASE_URL} from '@env'
+
 const Restaurant = () => {
   return (
     <View>
