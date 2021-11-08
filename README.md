@@ -1,3 +1,15 @@
+# fresh_start
+
+```
+npx react-native project_name
+```
+
+# upgrade_packages
+
+```
+npm install -g yarn-upgrade-all
+```
+
 # react_native_cli_boilerplate
  
  
